@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:paddingStart="2dp" />
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:paddingStart="2dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="더하기"
+        android:textColorLink="#FFFFFF"
+        app:cornerRadius="0dp"
+        app:iconGravity="textEnd|textTop" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="빼기"
+        android:textColorLink="#FFFFFF"
+        app:cornerRadius="0dp"
+        app:iconGravity="textEnd|textTop" />
+
+    <Button
+        android:id="@+id/btnMul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="곱하기"
+        android:textColorLink="#FFFFFF"
+        app:cornerRadius="0dp"
+        app:iconGravity="textEnd|textTop" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="나누기"
+        android:textColorLink="#FFFFFF"
+        app:cornerRadius="0dp"
+        app:iconGravity="textEnd|textTop" />
+
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="나머지 값"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="계산 결과 : "
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30dp" />
+</LinearLayout>
