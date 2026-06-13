@@ -1,0 +1,77 @@
+
+/* div.descendent {
+    color: red;
+} */
+/* div > div > div {
+    color: red;
+}  */
+div.parent div {
+    color: red;
+}  
+input[type=button] {
+    width: 100px;
+}
+input[type=button]:focus {
+    font-size: 36px;
+}
+input[type=button]:hover {
+    background-color: royalblue;
+}
+input[type=button]:active {
+    background-color: orange;
+}
+
+
+input[type=text] {
+    background-color: yellow;
+}
+input#pwd {
+    background-color: blueviolet;
+}
+
+
+table  tr > td {
+    color: red;
+}
+
+h1:first-child {
+    color: red;
+}
+h1:nth-of-type(1) {
+    color: orange;
+}
+h1:nth-last-of-type(1) {
+    color: blue;
+}
+
+h1:first-child {
+    background-color: yellow;
+}
+h1:nth-child(2) {
+    background-color: royalblue;
+}
+
+td {
+    width: 40px;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+tr:nth-of-type(2n+1) > td {
+    background-color: pink;
+}
+td:nth-of-type(2n) {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

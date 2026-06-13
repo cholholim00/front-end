@@ -1,0 +1,48 @@
+div.parent {
+    width: 400px;
+    height: 400px;
+    border-radius: 0;
+    border: 5px solid red;
+    position: relative;    
+}
+div {
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    border: 5px solid blue;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+}
+div._1st,
+div._2nd,
+div._3rd,
+div._4th,
+div._5th {
+    border: 0;
+    background-color: rgb(255,0,0,0.5);
+}
+div._1st {
+    top: 0;
+    left: 0;
+}
+div._2nd {
+    bottom: 0;
+    left: 0;
+}
+div._3rd {
+    bottom: 0;
+    right: 0;
+}
+div._4th {
+    top: 0;
+    right: 0;
+}
+div._5th {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+html {
+    border: 1px solid blue;
+}

@@ -1,0 +1,50 @@
+
+
+/*
+span {
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 20px 50px;
+    display: block;
+}
+span._2nd {
+    display: none;
+}
+div {
+    border: 5px solid blue;
+    width: 200px;
+    display: inline-block;
+}
+button {
+    width: 200px;
+    padding: 50px;
+    border: 5px solid red;
+}*/
+
+
+
+
+
+span {
+    font-size: 16px;
+}
+#_2nd {
+    font-size: 32px;
+}
+#_3rd {
+    font-size: 48px;
+}
+button {
+    width: 200px;
+    height: 50px;
+}
+div {
+    margin-top: 10px;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+

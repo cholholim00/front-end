@@ -1,0 +1,32 @@
+.container2 {
+    width: 960px;
+    padding: 100px;
+    /* border: 1px solid orange; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* .col,
+.col-3 {
+    border: 1px dotted gray;
+} */
+h2 {
+    color: darkblue;
+}
+.myHr {
+    height: 3px;
+    background-color:darkblue;
+}
+.explain {
+    font-size: 14px;
+}
+.myDisplay {
+    display: block;
+}
+.myBtn {
+    border: 1px solid rgb(177, 158, 121);
+    background-color: rgb(245, 245, 245);
+}
+.star {
+    color: red;
+}
